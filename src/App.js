@@ -5,15 +5,16 @@ import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <div className="app">
       <Router>
-        <Navigation />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" exact component={About} />
-        </Switch>
+        <div className="app">
+          <Navigation />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/about" exact component={About} />
+          </Switch>
+        </div>
       </Router>
-    </div>
+    
   );
 }
 

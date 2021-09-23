@@ -6,14 +6,14 @@ const Navigation = () => {
         <div className='navigation'>
 
             <div className="nav-logo">
-                <span>Slider</span>
+                <a href='/'>Slider</a>
             </div>
 
             <div className="nav-ul">
                 <Link exact to="/" className="nav-link">Home</Link>
                 <Link exact to="/about" className="nav-link">About</Link>
             </div>
-            
+
         </div>
     );
 };
